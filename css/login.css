@@ -1,0 +1,83 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* BARRA MENU */
+
+#menugeral {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#header .navbar-brand {
+    color: rgb(114, 168, 60);
+}
+
+#header .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(108, 163, 53);
+    border-bottom: solid 4px transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#header .navbar-toggler{
+    background-color: rgb(108, 163, 53);
+    border: solid 4px rgb(255, 255, 255);
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px rgb(255, 255, 255);
+    color: rgb(52, 73, 32);
+}
+
+
+/* LOGIN */
+
+#BEM-VINDO { 
+    text-align: center;
+    font-size:x-large;
+    
+}
+
+#login {
+    margin-top: 10vh;
+    background-color: transparent;
+}
+
+#login .mb-3, .form-text {
+    margin-left: 30vw;
+    margin-right: 30vw;
+
+    color: white;
+}
+
+#EsqueceuSenha, #Cadastre-se, #Politica {
+    text-align: center;
+}
+#botao {
+    text-align: center;
+}
+
+#BotaoEntrar {
+    padding: 05px 40px;
+    background-color: rgb(108, 163, 53);
+}
+
+#botao .contas {
+    width: 134.3px;
+}
+
+@media (max-width: 992px) {
+    #login .mb-3, .form-text {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+

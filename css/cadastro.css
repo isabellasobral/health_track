@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+/* BARRA MENU */
+
+#menugeral {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#header .navbar-brand {
+    color: rgb(114, 168, 60);
+}
+
+#header .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(108, 163, 53);
+    border-bottom: solid 4px transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#header .navbar-toggler{
+    background-color: rgb(108, 163, 53);
+    border: solid 4px rgb(255, 255, 255);
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px rgb(255, 255, 255);
+    color: rgb(52, 73, 32);
+}
+
+
+/* CADASTRO */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#cadastro {
+    /* MUDOU AQUI O MARGIN TOP */
+    margin-top: 10vh;
+    background-color:transparent;
+}
+#cadastre-se {
+    text-align: center;
+    color: white;
+    font-size:x-large;
+}
+
+#cadastro .col-md-5 {
+    min-width: 80%;
+    margin: auto;
+    color: white;
+}
+
+#botao {
+    text-align: center;
+}
+#botaocadastro {
+    padding: 05px 40px;
+    background-color: rgb(108, 163, 53);
+}
+
+#login_termos .style{
+   
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 768px) {
+     .col-md-5 {
+        width: 80%
+    }
+} 

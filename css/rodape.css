@@ -1,0 +1,206 @@
+body {
+    background-color: rgb(0, 0, 0);
+ 
+}
+
+/* BARRA MENU */
+
+#menugeral {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#header .navbar-brand {
+    color: rgb(114, 168, 60);
+}
+
+#header .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(108, 163, 53);
+    border-bottom: solid 4px transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#header .navbar-toggler{
+    background-color: rgb(108, 163, 53);
+    border: solid 4px rgb(255, 255, 255);
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px rgb(255, 255, 255);
+    color: rgb(52, 73, 32);
+}
+
+/* INICIO */
+#inicio {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(140, 170, 121);
+}
+#inicio .text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* benefícios */
+
+
+#beneficios .text {
+   padding-left: 7vw;
+   padding-top: 1vh;
+   color: rgb(255, 255, 255);
+   font-size: 2vw;
+   
+   
+}
+.principal {
+    color: rgb(65, 203, 207);
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+#assine {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(140, 170, 121);
+    text-align: center;
+    padding-left: 7vw;
+    padding-top: 3vh;
+}
+.btn1 {
+    width: 50%;
+    background-color: rgb(53, 164, 184);
+    color: white
+}
+
+#sp {
+    font-size:  3vh;
+}
+
+div p {
+    font-size: 2vh;
+    color: white;
+}
+
+/* FOOTER */
+
+#myFooter {
+    background-color: #242222;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 50px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h4 {
+    font-size: 17px;
+    color: rgb(248, 248, 248);
+    font-weight: lighter;
+    margin-top: 45px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: rgb(248, 248, 248);
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+
+#myFooter a {
+    color: #8ecc8e;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: rgb(188, 228, 194);
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #49c5db;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #1161a7;
+}
+
+#myFooter .instagram:hover {
+    color: rgb(207, 22, 192);
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+#myFooter .btn1 {
+    color: rgb(2, 2, 2);
+    background-color: #eff5f7;
+    border-radius: 05px;
+    border: none;
+    width: 200px;
+    display: block;
+    margin-left:7vw ;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #eb1043;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+
+

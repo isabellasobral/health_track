@@ -1,0 +1,232 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+
+/* BARRA MENU */
+
+#menugeral {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#header .navbar-brand {
+    color: rgb(114, 168, 60);
+}
+
+#header .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(108, 163, 53);
+    border-bottom: solid 4px transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#header .navbar-toggler{
+    background-color: rgb(108, 163, 53);
+    border: solid 4px rgb(255, 255, 255);
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px rgb(255, 255, 255);
+    color: rgb(52, 73, 32);
+}
+
+/* SLIDER */
+
+.container {
+    margin-top: 10vh;
+}
+
+
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 100px;
+}
+h2{
+    font-family: monospace;
+}
+
+/* descrição */
+
+#modelovisao {
+    margin: 10vh;
+}
+.titulo{
+    color: rgb(108, 163, 53);
+    font-weight: bolder;
+    font-size: 50px;
+    border-bottom: solid 5px rgb(255, 255, 255);
+    border-top: solid 5px rgb(255, 255, 255);
+    font-family: fantasy
+}
+
+.desc{
+    margin-top: 05vh;
+    color: white;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+/* SEJA PREMIUM */
+#assine {
+    width: 100%;
+    background-color: rgb(140, 170, 121);
+    text-align: center;
+}
+
+.btn1 {
+    background-color: rgb(53, 164, 184);
+    color: white;
+    margin-top: 2vh;
+    width: 50%;
+}
+
+ div p {
+    font-size: 15px;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* RODAPÉ */
+section {
+    background-color: #525252;
+    width: 100%;
+    height: 8vh;
+}
+
+
+.baixe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    border-radius: 16px;
+    background-color: #a1054e;
+    color: #fff;
+    padding: 4px 32px;
+    width: 45%;
+    margin: 10px;
+}
+.social{
+    display: inline-block;
+}
+
+.facebook, .instagram, .twitter {
+    font-size: 32px;
+    color: #49c5db;
+    padding: 10vw;
+    transition: 0.2s;
+    size: 2;
+    
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+.facebook:hover {
+    color: #1161a7;
+}
+
+.instagram:hover {
+    color: rgb(207, 22, 192);
+}
+
+.twitter:hover {
+    color: #00aced;
+}
+
+.contato {
+    border: none;
+    border-radius: 16px;
+    background-color: #a1054e;
+    color: #fff;
+    padding: 4px 32px;
+    width: 50%;
+    margin: 10px;
+}
+
+
+footer p {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    margin: 0;
+}
+
+
+
+ /* RODAPÉ
+section {
+    background-color: #525252;
+}
+
+.baixe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.social a {
+    font-size: 32px;
+    color: #49c5db;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+.facebook:hover {
+    color: #1161a7;
+}
+
+.instagram:hover {
+    color: rgb(207, 22, 192);
+}
+
+.twitter:hover {
+    color: #00aced;
+}
+
+.social button {
+    border: none;
+    border-radius: 16px;
+    background-color: #a1054e;
+    color: #fff;
+    padding: 4px 32px;
+}
+
+
+footer p {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    margin: 0;
+}
+ */
