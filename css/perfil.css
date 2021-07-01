@@ -42,7 +42,6 @@ html, body {
 /* PERFIL */
 
 #perfil{
-    width: 100%;
     margin-top: 10vh;
     background-color:transparent;
 }
@@ -59,7 +58,7 @@ html, body {
 
 /* DESCRIÇÃO PERFIL */
 
-.container{
+.ct-1, .ct-2{
     margin-top:  04vh;
     border-bottom: solid 4px rgb(180, 177, 177);
 }
@@ -67,6 +66,11 @@ html, body {
 .ct-1{
     border-top: solid 4px rgb(180, 177, 177);
     padding-top:  03vh;
+}
+.ct-3{
+    margin-top:  05vh;
+    margin-bottom: 12vh;
+    border-radius: 80px;
 }
 
 .bi-pencil-square{
@@ -87,25 +91,27 @@ html, body {
 
 /* ICONES E LEGENDA */
 
-.bi{
-    font-weight: bolder;
-    font-size: xx-large;
-}
 .bi-graph-up{
     color: rgb(86, 255, 71);
+    font-weight: bolder;
+    font-size: xxx-large;
 }
 .bi-trophy-fill{
     color: yellow;
+    font-weight: bolder;
+    font-size: xxx-large;
 }
 .bi-bullseye{
     color: tomato;
+    font-weight: bolder;
+    font-size: xxx-large;
 }
 
 .segundodesc{
     list-style: none;
     color: rgb(65, 203, 207);
     font-weight: bold;
-    font-size: larger;
+    font-size: 15px;
 }
 a.linknone:link{
     text-decoration: none;
@@ -116,3 +122,123 @@ a.linknone{
 a.linknone:hover{
     color:rgb(173, 230, 187)
 }
+
+/* HOJE */
+#hoje {
+        margin-top: 05vh;
+        
+        background-color:transparent;
+        color: rgb(108, 163, 53);
+        
+        font-size:xx-large;
+    }
+
+.caixaicones{
+    
+    background-color: rgb(78, 152, 177);
+    border-radius: 80px;
+    
+}
+
+.descitens{
+    list-style: none;
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bi-pencil-square{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+.bi-heart-fill{
+    color: rgb(201, 42, 121);
+    font-weight: bolder;
+    font-size: xxx-large;
+
+}
+.bi-lightning-fill{
+    color: yellow;
+    font-weight: bolder;
+    font-size: xxx-large;
+
+}
+.bi-moon-fill{
+    color: lightgray;
+    font-weight: bolder;
+    font-size: xxx-large;
+
+}
+.bi-droplet-fill{
+    color: rgb(6, 117, 185);
+    font-weight: bolder;
+    font-size: xxx-large;
+    
+}
+
+/* RODAPÉ */
+
+
+.baixe {
+    border: none;
+    border-radius: 16px;
+    background-color: #a1054e;
+    color: #fff;
+    margin-top: 12%;   
+}
+.social{
+    margin-top: 3%;
+
+}
+
+.facebook, .instagram, .twitter {
+    font-size: 38px;
+    color: #49c5db;
+    transition: 0.2s;
+    margin-top: 12%;
+    
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+.facebook:hover {
+    color: #1161a7;
+}
+
+.instagram:hover {
+    color: rgb(207, 22, 192);
+}
+
+.twitter:hover {
+    color: #00aced;
+}
+
+.contato {
+    border: none;
+    border-radius: 16px;
+    background-color: #a1054e;
+    color: #fff;
+     /* width: 20%;  */
+     margin-top: 12%; 
+    /* padding-right: 50; */ */
+}
+
+article {
+    background-color: #525252;
+    height: 100px;
+
+}
+
+footer p {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 16px;
+    width: 100%;
+
+} 
+
+

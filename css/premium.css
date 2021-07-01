@@ -76,6 +76,7 @@ html, body {
     width: 100%;
     background-color: rgb(140, 170, 121);
     text-align: center;
+    margin-top: 2vh;
 }
 
 .btn1 {
@@ -92,36 +93,26 @@ html, body {
 }
 
 
- /* RODAPÉ */
-section {
-    background-color: #525252;
-    width: 100%;
-    height: 8vh;
-}
+/* RODAPÉ */
 
 
 .baixe {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     border: none;
     border-radius: 16px;
     background-color: #a1054e;
     color: #fff;
-    padding: 4px 32px;
-    width: 45%;
-    margin: 10px;
+    margin-top: 12%;   
 }
 .social{
-    display: inline-block;
+    margin-top: 3%;
+
 }
 
 .facebook, .instagram, .twitter {
-    font-size: 32px;
+    font-size: 38px;
     color: #49c5db;
-    padding: 10vw;
     transition: 0.2s;
-    size: 2;
+    margin-top: 12%;
     
 }
 
@@ -145,201 +136,25 @@ section {
     border-radius: 16px;
     background-color: #a1054e;
     color: #fff;
-    padding: 4px 32px;
-    width: 50%;
-    margin: 10px;
+     /* width: 20%;  */
+     margin-top: 12%; 
+    /* padding-right: 50; */ */
 }
 
+article {
+    background-color: #525252;
+    height: 100px;
 
-footer p {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 16px;
-    margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER
-footer {
-    background-color: #242424;
-}
-
-.div1,
-.div2 {
-    width: 500px;
-}
-
-.div1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 32px;
-}
-
-.div2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.menu:first-child{
-    margin-right: 50px;
-    margin-left: 50px;
-
-
-}
-
-footer section {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 32px;
-    flex-wrap: wrap;
-}
-
-footer section .baixe {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 45%;
-}
-
-footer section .baixe button {
-    border: none;
-    border-radius: 4px;
-}
-
-footer section .baixe button:last-child {
-    margin-top: 16px;
-}
-
-
-footer section .menu {
-    display: flex;
-    justify-content: space-between;
-    width: 13%;
-    color: #28ff56;
-}
-
-footer section .menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer section .menu ul li:first-child {
-    color: #fff;
-}
-
-footer section .social {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer section .social div:first-child {
-    width: 55%;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer section .social i {
-    font-size: 32px;
-    color: #44bfd4;
-}
-
-footer section .social div:last-child {
-    margin-top: 32px;
-}
-
-footer section .social button {
-    border: none;
-    border-radius: 16px;
-    background-color: #ff4848;
-    color: #fff;
-    padding: 4px 32px;
-}
-
-footer section .social button:hover {
-    background-color: #ff1818;
 }
 
 footer p {
     text-align: center;
     background-color: #333;
     color: #fff;
+    font-weight: bold;
     padding: 16px;
-    margin: 0;
-}
+    width: 100%;
 
-@media(max-width: 996px) {
-    .div1,
-    .div2 {
-        width: 100%;
-    }
+} 
 
-    .div1 {
-        margin-bottom: 32px;
-    }
 
-    .div2 {
-        justify-content: space-around;
-    }
-
-    footer section .social {
-        width: 50%;
-        display: flex;
-        align-items: flex-end;
-    }
-
-    footer section .social div:first-child {
-        width: 30%;
-    }
-}
-
-@media(max-width: 600px) {
-    .div1,
-    .div2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0;
-    }
-
-    footer section .menu {
-        width: 100%;
-        justify-content: space-around;
-    }
-
-    footer section .social {
-        align-items: center;
-        width: 100%;
-    }
-
-    footer section .baixe {
-        width: 75%;
-    }
-
-    footer section .consulte {
-        margin-bottom: 32px;
-        width: 85%;
-    }
-
-    footer section .social div:first-child {
-        width: 80%;
-    }
-} */
